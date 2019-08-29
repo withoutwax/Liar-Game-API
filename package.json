@@ -1,0 +1,33 @@
+{
+  "name": "liar-game-api",
+  "version": "1.0.0",
+  "description": "An API for Liar Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withoutwax/Liar-Game-API.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Will Kim <rlagmlckd@gmail.com> (https://withoutwax.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/withoutwax/Liar-Game-API/issues"
+  },
+  "homepage": "https://github.com/withoutwax/Liar-Game-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
