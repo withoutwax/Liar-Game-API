@@ -4,15 +4,12 @@ const Schema = mongoose.Schema;
 // Database's data structure
 const WordSchema = new Schema(
     {
-        food: {
-            en: [
-                String
-            ],
-            kr: [
-                String
-            ],
-            krtheme: String
-        },
+        type: String,
+        typeKr: String,
+        kr: [
+            String
+        ]
+
     },
     { timestamps: true }
 );

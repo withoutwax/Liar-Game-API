@@ -32,6 +32,26 @@ router.get('/getData', (req, res) => {
     });
 });
 
+// PUT
+// router.post('/putData', (req, res) => {
+//     let data = new Data();
+
+//     const { test } = req.body;
+
+//     if ((!test && test !== 0)) {
+//         return res.json({
+//             success: false,
+//             error: 'INVALID INPUTS'
+//         }); 
+//     }
+
+//     data.test = test;
+//     data.save((err) => {
+//         if (err) return res.json({ success: false, error: err });
+//         return res.json({ success: true });
+//     });
+// });
+
 // Append /api for out http requests
 app.use('/api', router);
 
